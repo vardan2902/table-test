@@ -3,6 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ag-grid-community/client-side-row-model": "^28.2.0",
+    "@ag-grid-community/core": "^28.2.0",
+    "@ag-grid-community/react": "^28.2.0",
+    "@ag-grid-community/styles": "^28.2.0",
+    "@ag-grid-enterprise/column-tool-panel": "^28.2.0",
+    "@ag-grid-enterprise/core": "^28.2.0",
+    "@ag-grid-enterprise/master-detail": "^28.2.0",
+    "@ag-grid-enterprise/menu": "^28.2.0",
+    "@ckeditor/ckeditor5-build-classic": "^35.2.1",
+    "@ckeditor/ckeditor5-react": "^5.0.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,6 +20,8 @@
     "@types/node": "^16.11.68",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "ag-grid-enterprise": "^28.2.0",
+    "ag-grid-react": "^28.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -39,5 +51,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-alignment": "^35.2.1",
+    "@types/ckeditor__ckeditor5-build-classic": "^29.0.1"
   }
 }
